@@ -1,8 +1,8 @@
 package demo.provider;
 
-import demo.service.IDemoService;
+import demo.service.DemoService;
 
-public class DemoServiceImpl implements IDemoService {
+public class DemoServiceImpl implements DemoService {
 
     public String sayHello(String name) {
         return "Hello " + name;

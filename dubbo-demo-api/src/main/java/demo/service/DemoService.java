@@ -1,5 +1,5 @@
 package demo.service;
 
-public interface IDemoService {
+public interface DemoService {
     String sayHello(String name);
 }
