@@ -19,7 +19,7 @@ public class Provider {
         application.setName("demo-provider");
 
         // 连接注册中心配置
-        RegistryConfig registry = new RegistryConfig("zookeeper://114.67.66.81:2181");
+        RegistryConfig registry = new RegistryConfig("zookeeper://127.0.0.1:2181");
 
         // 服务提供者协议配置(可不指定，使用默认配置)
         ProtocolConfig protocol = new ProtocolConfig();
