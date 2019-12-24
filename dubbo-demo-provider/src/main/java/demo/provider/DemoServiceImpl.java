@@ -10,6 +10,9 @@ public class DemoServiceImpl implements DemoService {
     }
 
     public Person sayPerson(Person person) {
-        return person;
+        System.out.println(person.getName());
+        Person person1 = new Person();
+        person1.setName("this is response");
+        return person1;
     }
 }
